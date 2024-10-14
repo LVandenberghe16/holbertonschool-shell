@@ -1,2 +1,4 @@
 #!/bin/bash
-rm -r *.js 
+rm -r find . -type f -iregex "*.js"
+
+
