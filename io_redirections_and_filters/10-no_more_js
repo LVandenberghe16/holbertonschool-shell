@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -r find . -type f -iregex "*.js"
+find -delete *.js
 
 
